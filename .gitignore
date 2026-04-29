@@ -1,0 +1,23 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+# videos
+*.mp4
+*.avi
+*.mov
+
+# AI models
+*.pt
+*.onnx
+*.tflite
+
+# folders
+yolov5/
+runs/
+output/
+.gradle/
+
+# java build
+*.jar
