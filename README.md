@@ -6,18 +6,19 @@ This project detects vehicles using YOLO, tracks them using DeepSORT, and estima
 ## 🧠 Technologies Used
 - Python
 - OpenCV
-- YOLO (Ultralytics)
+- YOLOv8 (Ultralytics)
 - DeepSORT
 - PyTorch
 
 ## ⚙️ Features
-- Vehicle detection
-- Multi-object tracking (IDs)
-- Speed estimation (km/h)
-- Entry and exit counting
-- Works with traffic videos
+- Vehicle detection using YOLOv8
+- Vehicle tracking using DeepSORT
+- Speed estimation in km/h
+- Entering and leaving vehicle count
+- Output video generation
 
 ## ▶️ How to Run
 1. Install dependencies:
 ```bash
 pip install -r requirements.txt
+python main.py
